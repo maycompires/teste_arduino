@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../blink_teste"
+		},
+		{
+			"name": "teste_arduino",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
