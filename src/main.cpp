@@ -11,16 +11,22 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  delay(1000);
+  delay(5000);
   digitalWrite(led1Pin, HIGH);
   digitalWrite(led2Pin, LOW);
   delay(2000);
   digitalWrite(led1Pin, LOW);
   digitalWrite(led2Pin, HIGH);
   delay(2000);
-  digitalWrite(led1Pin, HIGH);
+  digitalWrite(led1Pin, LOW);
+  digitalWrite(led2Pin, LOW);
+  delay(500);
+  digitalWrite(led1Pin, HIGH);    
   digitalWrite(led2Pin, HIGH);
-  delay(300);
+  delay(500);
+  digitalWrite(led1Pin, LOW);    
+  digitalWrite(led2Pin, LOW);
+  delay(500);
   digitalWrite(led1Pin, HIGH);    
   digitalWrite(led2Pin, HIGH);
 }
