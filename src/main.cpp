@@ -1,3 +1,14 @@
+/**
+ * @file main.cpp
+ * @author your name (you@domain.com)
+ * @brief 
+ * @version 0.1
+ * @date 2023-09-19
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
+
 #include <arduino.h>
 
 int led1Pin = 9;
